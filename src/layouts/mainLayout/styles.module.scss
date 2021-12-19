@@ -1,0 +1,23 @@
+.MainContainer {
+    width: calc(100vw - 100px);
+    min-height: calc(100vh - 160px);
+    margin: 0 20px;
+    padding: 20px;
+    border-radius: 24px;
+    overflow: hidden;
+    transition: all 0.4s ease-in;
+
+    &.BlackMode {
+        background-color: #212121;
+    }
+
+    &.WhiteMode {
+        background-color: #E3F2FD;
+    }
+
+    &.Open {
+        margin-left: 260px;
+        width: calc(100vw - 340px);
+        transition: all 0.3s ease-out;
+    }
+}

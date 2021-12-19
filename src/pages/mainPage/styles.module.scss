@@ -1,0 +1,19 @@
+.Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Filtering {
+    display: flex;
+    margin: 0 40px;
+    justify-content: space-between;
+    align-items: center;
+
+    &.MobileFiltering {
+        margin: 0;
+        flex-direction: column;
+    }
+}
+
+

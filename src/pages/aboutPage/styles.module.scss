@@ -1,0 +1,12 @@
+.Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .Card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
